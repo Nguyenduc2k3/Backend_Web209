@@ -19,7 +19,7 @@ app.use(cookieParser())
 
 routes(app);
 
-mongoose.connect("mongodb://127.0.0.1:27017/web17308")
+mongoose.connect("mongodb://127.0.0.1:27017/web17308") 
     .then(() => {
         // console.log('Connect Db success!')
     })
